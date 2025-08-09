@@ -1,3 +1,1 @@
-'use strict';
-
-module.exports = require('./lib/picomatch');
+export { picomatch as default } from './lib/picomatch.js';
