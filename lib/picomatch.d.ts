@@ -21,13 +21,13 @@ import type { scan as scanImport } from "./scan";
  * @return Returns a matcher function.
  * @api public
  */
-declare function picomatch<T extends true | false = false>(
+export declare function picomatch<T extends true | false = false>(
     glob: picomatch.Glob,
     options?: picomatch.PicomatchOptions,
     returnState?: T,
 ): T extends true ? picomatch.MatcherWithState : picomatch.Matcher;
 
-declare namespace picomatch {
+export declare namespace picomatch {
     type Glob = string | string[];
 
     interface Matcher {
