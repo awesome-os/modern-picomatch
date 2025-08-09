@@ -1,6 +1,6 @@
 import type { constants as constantsImport } from "./constants";
-import parseImport = require("./parse");
-import scanImport = require("./scan");
+import type { parse as parseImport } from "./parse";
+import type { scan as scanImport } from "./scan";
 
 /**
  * Creates a matcher function from one or more glob patterns. The
