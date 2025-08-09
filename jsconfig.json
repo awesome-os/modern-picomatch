@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
-        "module": "node16",
+        "module": "esnext",
+        "declarations" true,
         "lib": [
             "es6"
         ],
@@ -9,12 +10,10 @@
         "strictFunctionTypes": true,
         "strictNullChecks": true,
         "types": [],
-        "noEmit": true,
+        "noEmitOnError": true,
         "forceConsistentCasingInFileNames": true
     },
     "files": [
-        "index.d.ts",
-        "posix.d.ts",
-        "picomatch-tests.ts"
+        "lib/picomatch.d.ts"
     ]
 }
