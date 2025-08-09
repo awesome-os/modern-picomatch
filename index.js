@@ -1,17 +1,4 @@
-'use strict';
-
-const pico = require('./lib/picomatch');
-const utils = require('./lib/utils');
-
-function picomatch(glob, options, returnState = false) {
-  // default to os.platform()
-  if (options && (options.windows === null || options.windows === undefined)) {
-    // don't mutate the original options object
-    options = { ...options, windows: utils.isWindows() };
-  }
-
-  return pico(glob, options, returnState);
-}
-
-Object.assign(picomatch, pico);
-module.exports = picomatch;
+import { picomatch as pico, picomatchNode } './lib/picomatch.js');
+export * from './lib/constants.js';
+export * as utils from './lib/utils.js';
+export const picomatch = (glob, options, returnState = false) => pico(glob, picomatchNode(options), returnState);
