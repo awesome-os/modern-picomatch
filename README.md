@@ -736,3 +736,13 @@ npm install -g verbose/verb#dev verb-generate-readme && verb
 
 Copyright © 2017-present, [Jon Schlinkert](https://github.com/jonschlinkert).
 Released under the [MIT License](LICENSE).
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install globally via awesome-os/pnpm (all platforms)
+pnpm add -g github:awesome-os/modern-picomatch
+
+# Run directly (all platforms)
+modern-picomatch --help
+```
