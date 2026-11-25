@@ -1,0 +1,52 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/modern-picomatch",
+  "targets": [
+    "win64",
+    "linux-x64",
+    "linux-arm64",
+    "macos-arm64",
+    "wasm32-wasi"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/modern-picomatch/modern-picomatch-v0.1.0.tar.zst",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "55358cb442188e4b84ecc189da03e5096c2fb696831f5d8b576d870c3d18d89fd30aef27be8295da69abb819e2f38218d8f3c498a446eb3dc43c49c25fdbab65",
+      "size": 109727,
+      "executable": false,
+      "blob": "v11/files/55/55358cb442188e4b84ecc189da03e5096c2fb696831f5d8b576d870c3d18d89fd30aef27be8295da69abb819e2f38218d8f3c498a446eb3dc43c49c25fdbab65",
+      "url": "https://github.com/awesome-os/modern-picomatch/releases/download/v0.1.0/modern-picomatch-v0.1.0.tar.zst",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/modern-picomatch/SHA256SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "28c33c0e05320278b63b8b46105190a1d0cb789c2983959d9233ec71b6b7b18c5d17b65314299a9941c248c9ec07412d31d1648538c80a4b03fbf38d55e45104",
+      "size": 98,
+      "executable": false,
+      "blob": "v11/files/28/28c33c0e05320278b63b8b46105190a1d0cb789c2983959d9233ec71b6b7b18c5d17b65314299a9941c248c9ec07412d31d1648538c80a4b03fbf38d55e45104",
+      "url": "https://github.com/awesome-os/modern-picomatch/releases/download/v0.1.0/SHA256SUMS.txt",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/modern-picomatch/SHA512SUMS.txt",
+      "kind": "object",
+      "version": "v0.1.0",
+      "target": "any",
+      "sha512": "c217bbb5838de5f4a402f1ab371e9642bd8283ef6fb64c932086b790cf1df12704777e10a7566aa9a91180d6cab7852709c5be20acfa4c71ed0b2d72f76fe5c3",
+      "size": 162,
+      "executable": false,
+      "blob": "v11/files/c2/c217bbb5838de5f4a402f1ab371e9642bd8283ef6fb64c932086b790cf1df12704777e10a7566aa9a91180d6cab7852709c5be20acfa4c71ed0b2d72f76fe5c3",
+      "url": "https://github.com/awesome-os/modern-picomatch/releases/download/v0.1.0/SHA512SUMS.txt",
+      "dependencies": []
+    }
+  ]
+}
