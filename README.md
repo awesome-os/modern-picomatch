@@ -740,9 +740,9 @@ Released under the [MIT License](LICENSE).
 ## Quick Install & Run (Windows / Linux / macOS)
 
 ```sh
-# Install globally via awesome-os/pnpm (all platforms)
-pnpm add -g github:awesome-os/modern-picomatch
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/modern-picomatch@main
 
-# Run directly (all platforms)
-modern-picomatch --help
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://node/modern-picomatch?from=repository://github.com/awesome-os/modern-picomatch@main"
 ```
