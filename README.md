@@ -1,3 +1,6 @@
+> [!WARNING]
+> Archived / Superseded by the unified Holo v11 core stack at https://github.com/awesome-os/awesome-os and https://github.com/awesome-os/chromium-baseline.
+
 <h1 align="center">Picomatch</h1>
 
 <p align="center">
